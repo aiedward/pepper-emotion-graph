@@ -12,10 +12,11 @@ npm install
 bower install
 ```
 
-Edit the `buildDir` variable to in `Gulpfile.js` the correct Pepper html folder of your Choregraph project.
+Edit the `buildDir` variable in `Gulpfile.js` to the correct Pepper html folder of your Choregraph project.
 
 ```
 gulp build
 ```
 
 Open index.html in the webview using Choregraph or Pepper.
+
