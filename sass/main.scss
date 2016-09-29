@@ -14,8 +14,15 @@
         fill: none;
     }
 
-    text {
-        text-anchor: middle;
+
+    .textEntity{
+        text {
+            text-anchor: middle;
+        }
+        line{
+            stroke:#BBBBBB;
+            stroke-width: 1;
+        }
     }
 
     polygon {

@@ -6,10 +6,12 @@ const rev = require('gulp-rev');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 
+const buildDir = '../test/html/';
+
 gulp.task('build',['clean','usemin']);
 
 gulp.task('clean',function () {
-    return del(['build/']);
+    return del([buildDir], {force:true});
 });
 
 gulp.task('usemin',['sass'], function() {
@@ -21,7 +23,7 @@ gulp.task('usemin',['sass'], function() {
         inlinejs: [ uglify() ],
         inlinecss: [ 'concat' ]
     }))
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest(buildDir));
 });
 
 gulp.task('sass',function () {
