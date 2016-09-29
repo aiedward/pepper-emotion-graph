@@ -1,0 +1,19 @@
+{
+  "name": "emotion-graph",
+  "version": "1.0.0",
+  "description": "a graph to visualize the detected motion by pepper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.9.1",
+    "gulp-rev": "^7.1.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-usemin": "^0.3.24"
+  }
+}
