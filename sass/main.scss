@@ -1,3 +1,35 @@
-body{
-  
+.well {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#graph {
+    height: 620px;
+    clear: both;
+
+    circle {
+        stroke: #BBBBBB;
+        stroke-width: 1;
+        fill: none;
+    }
+
+    text {
+        text-anchor: middle;
+    }
+
+    polygon {
+        fill: rgba(255, 127, 14, 0.5);
+        stroke: rgb(255, 127, 14);
+        stroke-width: 2;
+        -webkit-transition: transform 1s;
+    }
+
+
+
+    circle.dot {
+        fill: rgb(255, 127, 14);
+        stroke: none;
+        -webkit-transition: transform 1s;
+    }
 }
