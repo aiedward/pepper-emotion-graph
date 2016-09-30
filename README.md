@@ -1,12 +1,16 @@
 # Emotion Graph
 
-This D3 graph is showing the emotions given by Pepper's ALMood serive.
+This D3 graph is showing the emotions given by Pepper's ALMood service.
 
 ![Screenshot](screenshot.png)
 
-## Install
+## How to use it
 
-`npm`, `bower` and `gulp` need to be installed. Install all dependencies by:
+### Install Dependencies
+
+`npm`, `bower` and `gulp` need to be installed (On Mac for example: `brew install npm; npm install -g bower gulp`). 
+Install all frontend and build dependencies by:
+
 ```
 npm install
 bower install
