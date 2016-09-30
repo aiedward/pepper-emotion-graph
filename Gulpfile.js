@@ -6,7 +6,7 @@ const rev = require('gulp-rev');
 const browserSync = require('browser-sync').create();
 const del = require('del');
 
-const buildDir = '../test/html/';
+const buildDir = 'chorographapp/html/';
 
 gulp.task('build',['clean','usemin']);
 
